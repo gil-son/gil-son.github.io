@@ -312,6 +312,10 @@ nav a:hover::before {
 .slides .slide:nth-child(5) {
   background-image: url(../img/fifth_bg.jpg);
 }
+.slides .slide:nth-child(6) {
+	background-image: url(../img/fifth_bg.jpg);
+}
+
 .slides .slide img {
   width: 100%;
 }
@@ -716,7 +720,18 @@ nav a:hover::before {
 	text-decoration: none;
 }
 
+.networks{
+	font-size: 30px;
+	padding-left: 50px;
+}
 
+.network{
+	color: white;
+}
+
+.network:hover{
+	color: rgb(41, 83, 126);
+}
 
 /* REPONSIVE */
 
