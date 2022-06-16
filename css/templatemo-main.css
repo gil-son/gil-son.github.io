@@ -865,8 +865,8 @@ nav a:hover::before {
 @media(max-width: 400px) {
 	.footer .content p {
 		text-align: center;
-		font-size: 12px;
-		color: rgb(255, 255, 255);
-		margin-bottom: 19px;
+		font-size: 10px;
+		color: rgb(179, 183, 198);
+		margin-bottom: 15px;
 	}	
 }
