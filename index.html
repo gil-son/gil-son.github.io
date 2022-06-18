@@ -98,12 +98,28 @@ http://www.templatemo.com/tm-512-moonlight
                             <div class="first-section">
                                 <div class="container-fluid">
                                     <div class="row">
+                                        
                                         <div class="col-md-6">
+                                            <div class="row">
                                             <div class="left-content">
                                                 <h2>IBM - BRAZIL</h2>
-                                                <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices ipsum. Maecenas rhoncus nibh in mauris lobortis, a maximus diam faucibus. In et eros urna. Suspendisse potenti. Pellentesque commodo, neque nec molestie tempus, purus ante feugiat augue.</p>
+                                                <p id="selected">Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices ipsum. Maecenas rhoncus nibh in mauris lobortis, a maximus diam faucibus. In et eros urna. Suspendisse potenti. Pellentesque commodo, neque nec molestie tempus, purus ante feugiat augue.</p>
+                                                <p>Backend developer:</p>
+                                                                                                        
+                                                
                                                 <!-- <div class="main-btn"><a href="#4">Continue Reading</a></div> -->
                                             </div>
+                                        </div>
+                                            <div class="row">
+                                                <div class="col-md-11">
+                                                  <div class="list-group" id="list-tab" role="tablist">
+                                                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" onclick="selection('a')" role="tab" aria-controls="home">Home</a>
+                                                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" onclick="selection('b')" role="tab" aria-controls="profile">Profile</a>
+                                                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" onclick="selection('c')" role="tab" aria-controls="messages">Messages</a>
+                                                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" onclick="selection('d')" role="tab" aria-controls="settings">Settings</a>
+                                                  </div>
+                                                </div>
+                                              </div>  
                                         </div>
                                         <div class="col-md-6">
                                             <div class="right-image">
@@ -422,7 +438,7 @@ http://www.templatemo.com/tm-512-moonlight
 
         <div class="footer">
           <div class="content">
-              <p>Copyright &copy; 2022 Gilson Vieira de Souza</p>
+              <!-- <p>Copyright &copy; 2022 Gilson Vieira de Souza</p> -->
           </div>
         </div>
 
@@ -473,6 +489,28 @@ http://www.templatemo.com/tm-512-moonlight
             log: function() { }
         };
     }
+
+    
+    function selection(value){
+        
+        if(value == "a"){
+            document.getElementById("selected").innerHTML = "A Pronto você mudou o texto (y)";
+        }
+
+        if(value == "b"){
+            document.getElementById("selected").innerHTML = "B Pronto você mudou o texto (y)";
+        }
+
+        if(value == "c"){
+            document.getElementById("selected").innerHTML = "C Pronto você mudou o texto (y)";
+        }
+
+        if(value == "d"){
+            document.getElementById("selected").innerHTML = "D  Pronto você mudou o texto (y)";
+        }
+        
+    }
+
     </script>
 </body>
 </html>
