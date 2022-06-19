@@ -488,9 +488,6 @@ nav a:hover::before {
 	margin-top: 12px;
 }
 
-.third-content .first-section .right-image {
-	margin-left: 15px;
-}
 
 .third-content .second-section {
 	margin-top: 30px;
@@ -501,8 +498,22 @@ nav a:hover::before {
 	margin-top: 12px;
 }
 
+.third-content .first-section .right-image {
+	margin: 20px 0px 0px 15px !important;
+}
+
 .third-content .second-section .left-image {
-	margin-right: 15px;
+	margin: 0px 15px 0px 0px !important;
+}
+
+.third-content .third-section .right-image {
+	margin: 0px 0px 0px 15px !important;
+
+}
+
+.third-content .third-section {
+	margin-top: 30px;
+	
 }
 
 .third-content h2 {
@@ -737,6 +748,16 @@ nav a:hover::before {
 
 @media (max-width: 991px) {
 
+
+	.third-content .first-section .right-image {
+		margin: 0px 0px 0px 15px;
+	}
+	
+	.third-content .second-section .left-image {
+		margin: 0px 15px 0px 0px;
+	}
+
+
 	nav ul {
   		margin-left: 25px;
   	}
@@ -785,6 +806,9 @@ nav a:hover::before {
 	.fifth-content #contact {
 		padding: 30px 30px 30px 30px;
 	}
+
+
+	
 
 }
 
