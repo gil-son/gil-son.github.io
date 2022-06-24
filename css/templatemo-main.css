@@ -744,6 +744,10 @@ nav a:hover::before {
 	color: rgb(41, 83, 126);
 }
 
+.item .hover-content p.format-text{
+	color: white !important
+}
+
 /* REPONSIVE */
 
 @media (max-width: 991px) {
@@ -806,9 +810,6 @@ nav a:hover::before {
 	.fifth-content #contact {
 		padding: 30px 30px 30px 30px;
 	}
-
-
-	
 
 }
 
