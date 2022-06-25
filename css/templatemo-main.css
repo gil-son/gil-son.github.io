@@ -879,6 +879,12 @@ nav a:hover::before {
 		padding: 15px 15px 15px 15px;
 	}
 
+	.item .hover-content .network{
+		font-size: 1.5em;
+		display: flex;
+		justify-content: center;
+	}
+
 }
 
 @media(max-width: 450px) {
@@ -900,4 +906,5 @@ nav a:hover::before {
 		color: rgb(179, 183, 198);
 		margin-bottom: 15px;
 	}	
+
 }
