@@ -748,6 +748,12 @@ nav a:hover::before {
 	color: white !important
 }
 
+.item .hover-content .network{
+	font-size: 2.5em;
+	display: flex;
+	justify-content: center;
+}
+
 /* REPONSIVE */
 
 @media (max-width: 991px) {
