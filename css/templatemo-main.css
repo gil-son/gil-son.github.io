@@ -181,7 +181,7 @@ nav em {
 }
 
 nav ul li i {
-	width: 25px;
+	width: 16px;
 }
 
 nav ul li a {
@@ -222,7 +222,7 @@ nav ul {
     justify-content: space-around;
 }
 nav ul li {
-	margin: 25px 0px;
+	margin: 16px 0px;
 }
 nav a, nav a:visited, nav a:active {
   color: #fff;
@@ -887,6 +887,14 @@ nav a:hover::before {
 
 }
 
+
+#flags img {
+	background-color: white !important;
+	border: beige 2px solid;
+	display: block;
+}
+
+
 @media(max-width: 450px) {
 	nav ul {
 		margin-top: 30px;
@@ -899,6 +907,8 @@ nav a:hover::before {
 	}
 }
 
+
+
 @media(max-width: 400px) {
 	.footer .content p {
 		text-align: center;
@@ -906,5 +916,7 @@ nav a:hover::before {
 		color: rgb(179, 183, 198);
 		margin-bottom: 15px;
 	}	
+
+	
 
 }

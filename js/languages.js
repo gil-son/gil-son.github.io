@@ -1,0 +1,102 @@
+function switchLanguage(){
+
+    var value = document.getElementById("select-flags").value;
+
+    if(value ==  "br"){
+
+        // Menu
+
+        document.getElementById("inicio").innerHTML = "Início";
+        document.getElementById("sobre").innerText = "Sobre";
+        document.getElementById("trabalhos").innerText = "Trabalhos";
+        document.getElementById("projetos").innerText = "Projetos";
+        document.getElementById("contatos").innerText = "Contatos";;
+
+        // Home
+        
+        document.getElementById("bem_vindo").innerHTML = "Bem vindo";
+        document.getElementById("portfolio").innerHTML = "Neste portfólio, vou compartilhar um pouco sobre minha experiência de trabalho, projetos recentes, redes sociais...";
+        document.getElementById("more_info").innerHTML = "Se você quiser mais informações, você pode acessar meu";
+        document.getElementById("curriculo").innerHTML = "currículo online";
+        document.getElementById("ou_qualquer").innerHTML = "ou qualquer";
+        document.getElementById("bencao").innerHTML = "Que Deus abençoe o seu dia :)";
+        document.getElementById("leia_mais_1").innerHTML = "Continuar lendo";
+
+        // Sobre
+
+        document.getElementById("ola_mundo").innerHTML = "Olá Mundo";
+        document.getElementById("como_esta").innerHTML = "Como você está hoje?! As coisas vão melhorar! Meu nome é Gilson, sou formado em Ciência da Computação. Sou programador antes mesmo de saber o que é programação.";
+        document.getElementById("explicando").innerHTML = "O que me levou a programar foi querer entender por que as coisas são como são. E quanto mais você aprende, mais você precisa aprender.";
+        document.getElementById("proposito").innerHTML = "O objetivo deste site é trocar experiências. Então fique à vontade, mas mantenha tudo em ordem. Se você achar algum dos meus projetos interessantes, sinta-se à vontade para entrar em contato comigo.";
+        document.getElementById("leia_mais_2").innerHTML = "Continuar lendo";
+
+
+        // Trabalhos
+
+        document.getElementById("desenvolvedor_backend").innerHTML = "Desenvolvedor Backend - Pleno";
+        document.getElementById("selected-ibm").innerHTML = "Aprimorei meu conhecimento de Java através do uso de conceitos do java 8 e mais versões. Usei técnicas de design pattern e código limpo. Isso permitiu uma melhor compreensão e uso do código e paradigma";
+
+            // list - IBM
+
+            document.getElementById("list-a").innerHTML = "Melhoria das habilidade com Java";
+            document.getElementById("list-b").innerHTML = "Web Services com Spring Boot";
+            document.getElementById("list-c").innerHTML = "Habilidades com Apache Camel";
+            document.getElementById("list-d").innerHTML = "Trabalho em equipe ou solo";
+            document.getElementById("list-e").innerHTML = "Habilidades de documentação";
+
+        
+        document.getElementById("analista_dados").innerHTML = "Analista de Dados - Júnior:";
+        document.getElementById("selected-unicid").innerHTML = "Capacidade de analisar e interpretar dados. Através de ciclos comparativos, previsões, painéis, históricos de períodos";
+
+            // list - UNICID
+
+            document.getElementById("list-f").innerHTML = "Habilidades de análise";
+            document.getElementById("list-g").innerHTML = "ETL";
+            document.getElementById("list-h").innerHTML = "Pesquisa de mercado relacionada a termos-chave";
+            document.getElementById("list-i").innerHTML = "Contribuir com decisões";
+            document.getElementById("list-j").innerHTML = "Geoprocessamento e Análises";
+
+        
+        document.getElementById("programador_web").innerHTML = "Porgramador Web - Estágio:";
+        document.getElementById("selected-pautatelecom").innerHTML = "Sites criados em HTML, CSS e JS. Eles foram otimizados para melhor desempenho e tiveram manutenção e atualizações.";
+
+            // list - PAUTA TELECOM
+
+            document.getElementById("list-k").innerHTML = "Otimização, manutenção e criação de sites";
+            document.getElementById("list-l").innerHTML = "Atualização e Marketing com base na história";
+            document.getElementById("list-m").innerHTML = "Clientes em potencial";
+            document.getElementById("list-n").innerHTML = "Criação de arte";
+            document.getElementById("list-o").innerHTML = "Manutenção de computadores";
+
+    // Projetos
+    
+            document.getElementById("project-1").innerHTML = "Um catálogo de filmes, com avaliação e inscrição. Tem 4 idiomas";
+            document.getElementById("project-2").innerHTML = "O Re-ciclo é um projeto e desenvolvimento sustentável idealizado pela instituição Recode Pro através do Esquadrão 07";
+            document.getElementById("project-3").innerHTML = "Aqui haverá uma coleção de pequenos projetos, conceitos e testes. Apenas para praticar";
+            document.getElementById("project-4").innerHTML = "O Catálogo DS é um projeto de catalogação de produtos eletrônicos com controle de acesso entre usuários e administradores";
+            document.getElementById("project-5").innerHTML = "Um framework que facilita a comunicação entre sistemas, por meio de roteamento, processamento e transformação de dados";
+            document.getElementById("project-6").innerHTML = "Distributed data transmission that is able to publish, subscribe, store and process log streams in real time";
+            document.getElementById("project-7").innerHTML = "As melhores práticas usadas por desenvolvedores de software orientados a objetos experientes";
+            document.getElementById("project-8").innerHTML = "E-commerce de eletrodomésticos e com acesso administrativo. Tem versões simples a mais avançadas";
+            document.getElementById("project-9").innerHTML = "O Re-ciclo é um projeto e desenvolvimento sustentável idealizado pela instituição Recode Pro através do Esquadrão 07";
+            document.getElementById("project-10").innerHTML = "Diferentes aplicações com Spring Boot usando Test Driven Development (TDD)";
+            document.getElementById("project-11").innerHTML = "Projeto para melhorar as boas práticas de SQL e NoSQL";
+            document.getElementById("project-12").innerHTML = "Obtenha registros de informações de bitcoin válidas ou inválidas e gerencie seu saldo";
+            document.getElementById("project-13").innerHTML = "E-commerce de eletrodomésticos e com acesso administrativo. Tem versões simples a mais avançadas";
+            document.getElementById("project-14").innerHTML = "O Docker permite que você separe os aplicativos de sua infraestrutura para que você possa entregar software com segurança";
+            document.getElementById("project-15").innerHTML = "Collection and best practices with Diagrams, Models, Systems Use Cases, etc...";
+    
+    // Contatos
+    document.getElementById("form-submit").innerHTML = "Enviar";
+
+    document.getElementsByName('name')[0].placeholder='Seu nome...';
+    document.getElementsByName('email')[0].placeholder='Seu e-mail...';
+    document.getElementsByName('phone')[0].placeholder='Seu telefone...';
+    document.getElementsByName('subject')[0].placeholder='O assunto...';
+    document.getElementsByName('message')[0].placeholder='Sua mensagem...';
+
+        }else{
+        window.location.reload();
+    }
+
+}

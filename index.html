@@ -42,11 +42,17 @@ http://www.templatemo.com/tm-512-moonlight
               <img src="img/mini_logo.png" alt="">
           </div>
           <ul>
-            <li><a href="#1"><i class="fa fa-home"></i> <em>Home</em></a></li>
-            <li><a href="#2"><i class="fa fa-user"></i> <em>About</em></a></li>
-            <li><a href="#3"><i class="fa fa-handshake-o"></i> <em>Works</em></a></li>
-            <li><a href="#4"><i class="fa fa-cubes"></i> <em>Projects</em></a></li>
-            <li><a href="#5"><i class="fa fa-connectdevelop"></i> <em>Contacts</em></a></li>
+            <li id="flags">
+                <select name="name-flags" id="select-flags" onchange="switchLanguage()">
+                    <option value="us">US</option>
+                    <option value="br">BR</option>
+                  </select>
+            </li>
+            <li><a href="#1"><i class="fa fa-home"></i> <em id="inicio">Home</em></a></li>
+            <li><a href="#2"><i class="fa fa-user"></i> <em id="sobre">About</em></a></li>
+            <li><a href="#3"><i class="fa fa-handshake-o"></i> <em id="trabalhos">Works</em></a></li>
+            <li><a href="#4"><i class="fa fa-cubes"></i> <em id="projetos">Projects</em></a></li>
+            <li><a href="#5"><i class="fa fa-connectdevelop"></i> <em id="contatos">Contacts</em></a></li>
           </ul>
         </nav>
         
@@ -59,13 +65,13 @@ http://www.templatemo.com/tm-512-moonlight
                   </div>
                   <div class="col-md-9">
                       <h2>Gilson Vieira de Souza</h2>
-                      <p>Welcome</p>
-                      <p>On this portfolio, I will briefly share a little about myself, work experience, recent projects, social networks.</p>
-                      <p>If you would like more information, you can access my 
-                        <em><a href="https://www.canva.com/design/DAEQPddGOZw/view?utm_content=DAEQPddGOZw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1" target="_blank">online curriculum</a></em> 
-                           or any <em class="main-link"><a href="#5">network</a></em>. God bless his day :)
+                      <p id="bem_vindo">Welcome</p>
+                      <p id="portfolio">On this portfolio, I will briefly share a little about myself, work experience, recent projects, social networks.</p>
+                      <p><span id="more_info">If you would like more information, you can access my</span> 
+                        <em><a href="https://www.canva.com/design/DAEQPddGOZw/view?utm_content=DAEQPddGOZw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1" target="_blank" id="curriculo">online curriculum</a></em> 
+                           <span id="ou_qualquer">or any</span> <em class="main-link"><a href="#5">network</a></em>. <span id="bencao">God bless his day :)</span>
                      </p>
-                      <div class="main-btn"><a href="#2">Read More</a></div>
+                      <div class="main-btn"><a href="#2" id="leia_mais_1">Read More</a></div>
                     </div>
               </div>
             </div>
@@ -75,11 +81,11 @@ http://www.templatemo.com/tm-512-moonlight
                 <div class="container-fluid">
                     <div class="col-md-6">
                         <div class="left-content">
-                            <h2>Hello World</h2>
-                            <p>How are you today?! It will get better! My name is Gilson, I have a degree in Computer Science. I’m a programmer even before I know what programming is.</p> 
-                            <p>What led me to program was to want to understand why things are as they are. And the more you learn, the more you need to learn.</p>
-                            <p>The purpose of this site is to exchange experience. So feel free, but keep everything in order. If you find any of my projects interesting feel free to contact me.</p>                           
-                         <div class="main-btn"><a href="#3">Read More</a></div>
+                            <h2 id="ola_mundo">Hello World</h2>
+                            <p id="como_esta">How are you today?! It will get better! My name is Gilson, I have a degree in Computer Science. I’m a programmer even before I know what programming is.</p> 
+                            <p id="explicando">What led me to program was to want to understand why things are as they are. And the more you learn, the more you need to learn.</p>
+                            <p id="proposito">The purpose of this site is to exchange experience. So feel free, but keep everything in order. If you find any of my projects interesting feel free to contact me.</p>                           
+                         <div class="main-btn"><a href="#3" id="leia_mais_2">Read More</a></div>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -103,7 +109,7 @@ http://www.templatemo.com/tm-512-moonlight
                                             <div class="row">
                                             <div class="left-content">
                                                 <h2>IBM - BRAZIL</h2>
-                                                <p>Backend developer - Pleno</p>
+                                                <p id="desenvolvedor_backend">Backend developer - Pleno</p>
                                                 <p id="selected-ibm">I improved my knowledge of Java through the use of concepts from java 8 and more versions. I used design pattern techniques and clean code. This allowed a better understanding and use of the code and paradigm</p>
                                                 
                                                                                                         
@@ -115,7 +121,7 @@ http://www.templatemo.com/tm-512-moonlight
                                                 <div class="col-md-11">
                                                   <div class="list-group" id="list-tab1" role="tablist">
                                                     <a class="list-group-item list-group-item-action active" id="list-a" data-toggle="list" onmousemove="selection('a')" role="tab" aria-controls="settings">Improved Java skills</a>
-                                                    <a class="list-group-item list-group-item-action" id="list-b" data-toggle="list" onmousemove="selection('b')" role="tab" aria-controls="home">Create Web Services with Spring Boot</a>
+                                                    <a class="list-group-item list-group-item-action" id="list-b" data-toggle="list" onmousemove="selection('b')" role="tab" aria-controls="home">Web Services with Spring Boot</a>
                                                     <a class="list-group-item list-group-item-action" id="list-c" data-toggle="list" onmousemove="selection('c')" role="tab" aria-controls="profile">Skills with Apache Camel</a>
                                                     <a class="list-group-item list-group-item-action" id="list-d" data-toggle="list" onmousemove="selection('d')" role="tab" aria-controls="messages">Team or solo work</a>
                                                     <a class="list-group-item list-group-item-action" id="list-e" data-toggle="list" onmousemove="selection('e')" role="tab" aria-controls="settings">Documentation skills</a>
@@ -145,7 +151,7 @@ http://www.templatemo.com/tm-512-moonlight
                                             <div class="row">
                                             <div class="right-content">
                                                 <h2>UNICID</h2>
-                                                <p>Data Analyst - Junior:</p>
+                                                <p id="analista_dados">Data Analyst - Junior:</p>
                                                 <p id="selected-unicid">Ability to analyze and interpret data. Through comparative cycles, predictions, dashboards, period histories</p>
                                                 <!-- <div class="main-btn"><a href="#4">Continue Reading</a></div> -->
                                             </div>
@@ -153,11 +159,11 @@ http://www.templatemo.com/tm-512-moonlight
                                                 <div class="row">
                                                     <div class="col-md-11">
                                                         <div class="list-group" id="list-tab2" role="tablist">
-                                                          <a class="list-group-item list-group-item-action active" id="list-settings-list" data-toggle="list" onmousemove="selection('f')" role="tab" aria-controls="settings">Analisys skills</a>
-                                                          <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" onmousemove="selection('g')" role="tab" aria-controls="home">ETL</a>
-                                                          <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" onmousemove="selection('h')" role="tab" aria-controls="profile">Market research relating to key terms</a>
-                                                          <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" onmousemove="selection('i')" role="tab" aria-controls="messages">Contribute with decisions</a>
-                                                          <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" onmousemove="selection('j')" role="tab" aria-controls="settings">Geoprocessing and Analytics</a>
+                                                          <a class="list-group-item list-group-item-action active" id="list-f" data-toggle="list" onmousemove="selection('f')" role="tab" aria-controls="settings">Analisys skills</a>
+                                                          <a class="list-group-item list-group-item-action" id="list-g" data-toggle="list" onmousemove="selection('g')" role="tab" aria-controls="home">ETL</a>
+                                                          <a class="list-group-item list-group-item-action" id="list-h" data-toggle="list" onmousemove="selection('h')" role="tab" aria-controls="profile">Market research relating to key terms</a>
+                                                          <a class="list-group-item list-group-item-action" id="list-i" data-toggle="list" onmousemove="selection('i')" role="tab" aria-controls="messages">Contribute with decisions</a>
+                                                          <a class="list-group-item list-group-item-action" id="list-j" data-toggle="list" onmousemove="selection('j')" role="tab" aria-controls="settings">Geoprocessing and Analytics</a>
                                                         </div>
                                                   </div>
                                             </div>
@@ -175,7 +181,7 @@ http://www.templatemo.com/tm-512-moonlight
                                             <div class="row">
                                             <div class="left-content">
                                                 <h2>PAUTA TELECOM</h2>
-                                                <p>Web programmer - Internship</p>
+                                                <p id="programador_web">Web programmer - Internship</p>
                                                 <p id="selected-pautatelecom">Websites created in HTML, CSS and JS. They were optimized for better performance and had maintenance and updates.</p>
                                                 <!-- <div class="main-btn"><a href="#4">Continue Reading</a></div> -->
                                             </div>
@@ -215,7 +221,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/dsmovie-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>dsmovie</h2>
-                                            <p class="format-text">A film catalog, with evaluation and registration. Has 4 languages</p>
+                                            <p class="format-text" id="project-1">A film catalog, with evaluation and registration. Has 4 languages</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('a')"><i class="fa fa-github-alt network"></i></div>
@@ -233,7 +239,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/re-ciclo-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>re-ciclo</h2>
-                                            <p class="format-text">Re-ciclo is a sustainable project and development conceived by the institution Recode Pro through Squad 07</p>
+                                            <p class="format-text" id="project-2">Re-ciclo is a sustainable project and development conceived by the institution Recode Pro through Squad 07</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('b')"><i class="fa fa-github-alt network"></i></div>
@@ -251,7 +257,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/spring-ecosystem-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Spring Ecosystem</h2>
-                                            <p class="format-text">Here there will be a collection of small projects, concepts and tests. Just to practice</p>
+                                            <p class="format-text" id="project-3">Here there will be a collection of small projects, concepts and tests. Just to practice</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('c')"><i class="fa fa-github-alt network"></i></div>
@@ -269,7 +275,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/dscatalog-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>DSCatalog</h2>
-                                            <p class="format-text">The DS Catalog is a project to catalog electronic products with access control between users and administrators</p>
+                                            <p class="format-text" id="project-4">The DS Catalog is a project to catalog electronic products with access control between users and administrators</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('d')"><i class="fa fa-github-alt network"></i></div>
@@ -287,7 +293,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/apache-camel-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Apache Camel</h2>
-                                            <p class="format-text">A framework that facilitates communication between systems, through routing, processing and data transformation</p>
+                                            <p class="format-text" id="project-5">A framework that facilitates communication between systems, through routing, processing and data transformation</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('e')"><i class="fa fa-github-alt network"></i></div>
@@ -305,7 +311,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/kafka-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Kafka</h2>
-                                            <p class="format-text">Distributed data transmission that is able to publish, subscribe, store and process log streams in real time</p>
+                                            <p class="format-text" id="project-6">Distributed data transmission that is able to publish, subscribe, store and process log streams in real time</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('f')"><i class="fa fa-github-alt network"></i></div>
@@ -323,7 +329,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/design-pattern-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Designer Patterns</h2>
-                                            <p class="format-text">The best practices used by experienced object-oriented software developers</p>
+                                            <p class="format-text" id="project-7">The best practices used by experienced object-oriented software developers</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('g')"><i class="fa fa-github-alt network"></i></div>
@@ -341,7 +347,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/fullstackeletro-mobile-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Fullstack eletro (Version React Native)</h2>
-                                            <p class="format-text">E-commerce of home appliances and with administrative access. It has simple to more advanced versions</p>
+                                            <p class="format-text" id="project-8">E-commerce of home appliances and with administrative access. It has simple to more advanced versions</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('h')"><i class="fa fa-github-alt network"></i></div>
@@ -359,7 +365,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/re-ciclo-mobile-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>re-ciclo mobile (Version React Native)</h2>
-                                            <p class="format-text">Re-ciclo is a sustainable project and development conceived by the institution Recode Pro through Squad 07</p>
+                                            <p class="format-text" id="project-9">Re-ciclo is a sustainable project and development conceived by the institution Recode Pro through Squad 07</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('i')"><i class="fa fa-github-alt network"></i></div>
@@ -377,7 +383,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/spring-tdd-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Springboot tdd versions</h2>
-                                            <p class="format-text">Different applications with Spring Boot using Test Driven Development (TDD)</p>
+                                            <p class="format-text" id="project-10">Different applications with Spring Boot using Test Driven Development (TDD)</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('j')"><i class="fa fa-github-alt network"></i></div>
@@ -395,7 +401,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/sql-nosql-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>NoSQL vs. SQL</h2>
-                                            <p class="format-text">Project to improve good practices of SQL and NoSQL</p>
+                                            <p class="format-text" id="project-11">Project to improve good practices of SQL and NoSQL</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('k')"><i class="fa fa-github-alt network"></i></div>
@@ -413,7 +419,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/bitcoin-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Bitcoin Balance</h2>
-                                            <p class="format-text">Get records of valid or invalid bitcoin information and manage your balance</p>
+                                            <p class="format-text" id="project-12">Get records of valid or invalid bitcoin information and manage your balance</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('l')"><i class="fa fa-github-alt network"></i></div>
@@ -431,7 +437,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/fullstackeletro-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>FullStack Eletro</h2>
-                                            <p class="format-text">E-commerce of home appliances and with administrative access. It has simple to more advanced versions</p>
+                                            <p class="format-text" id="project-13">E-commerce of home appliances and with administrative access. It has simple to more advanced versions</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('m')"><i class="fa fa-github-alt network"></i></div>
@@ -449,7 +455,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/docker-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Docker</h2>
-                                            <p class="format-text">Docker allows you to separate applications from your infrastructure so you can securely deliver software</p>
+                                            <p class="format-text" id="project-14">Docker allows you to separate applications from your infrastructure so you can securely deliver software</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('n')"><i class="fa fa-github-alt network"></i></div>
@@ -467,7 +473,7 @@ http://www.templatemo.com/tm-512-moonlight
                                     <a href="img/agile-big.png" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Agile Modeling</h2>
-                                            <p class="format-text">Collection and best practices with Diagrams, Models, Systems Use Cases, etc...</p>
+                                            <p class="format-text" id="project-15">Collection and best practices with Diagrams, Models, Systems Use Cases, etc...</p>
                                            
                                             <hr/>
                                             <div onclick="openProject('o')"><i class="fa fa-github-alt network"></i></div>
@@ -617,84 +623,8 @@ http://www.templatemo.com/tm-512-moonlight
             log: function() { }
         };
     }
-
-    
-    function selection(value){
-            
-        switch(value){
-            case "a": document.getElementById("selected-ibm").innerHTML = "I improved my knowledge of Java through the use of concepts from java 8 and more versions. I used design pattern techniques and clean code. This allowed a better understanding and use of the code and paradigm.";break;
-            case "b": document.getElementById("selected-ibm").innerHTML = "Using the Spring Boot framework, I was able to quickly and optimally create applications with microservices, using APIs, Test Automation, Validation, Authentication, Authorization, ORM with database, CRUD, etc.";break;
-            case "c": document.getElementById("selected-ibm").innerHTML = "Apache Camel is a Java framework used for routing data, whether in Queues, API's, Routes, Directories. I could transfer internal datas to external client and work on its processing, transformation and security.";break;
-            case "d": document.getElementById("selected-ibm").innerHTML = "During the development of projects, there were moments that I worked alone, but also moments that I worked with one or more programmers. I use Scrum methodology with Jira platform and sometimes Kaban." ;break;
-            case "e": document.getElementById("selected-ibm").innerHTML = "I improved my ability to read, create and update documentation. The main platforms I use are confluence, Baeldung, my own Github (where I have projects that I can consult). And more the skill of creating diagrams.";break;
-            case "f": document.getElementById("selected-unicid").innerHTML = "Ability to analyze and interpret data. Through comparative cycles, predictions, dashboards, period histories."; break;
-            case "g": document.getElementById("selected-unicid").innerHTML = "ETL is a three-step (Extract, Transform, Load) type of data integration used to combine data from multiple sources.";break;
-            case "h": document.getElementById("selected-unicid").innerHTML = "Research is a vast discipline that varies with concepts remaining common: methodology, type of data (quantitative or qualitative).";break;
-            case "i": document.getElementById("selected-unicid").innerHTML = "Contribute with managers for better decision making. For this, it is necessary to understand the business rule and context variations.";break;
-            case "j": document.getElementById("selected-unicid").innerHTML = "Use of Geoprocessing and Analytics platforms. Onde foi feito o estudo de regioes em potencial para a implementacao do negocio.";break;
-            case "k": document.getElementById("selected-pautatelecom").innerHTML = "Websites created in HTML, CSS and JS. They were optimized for better performance and had maintenance and updates.";break;
-            case "l": document.getElementById("selected-pautatelecom").innerHTML = "Records were made in databases that later helped to create an event and promotions for the company.";break;
-            case "m": document.getElementById("selected-pautatelecom").innerHTML = "Surveys and campaigns were carried out on the company's social networks, for potential customers.";break;
-            case "n": document.getElementById("selected-pautatelecom").innerHTML = "Creation of templates, emails, events, posts based on art. And well-crafted itineraries for clients.";break;
-            case "o": document.getElementById("selected-pautatelecom").innerHTML = "Maintenance and configuration of the company's computers. Software installation and other improvements..";break;
-            default: document.getElementById("selected").innerHTML = "None";
-        }
-
-
-            if(value == "a" || value == "b" || value == "c" || value == "d" || value == "e"){
-                var btnContainer = document.getElementById("list-tab1");
-                var btns = btnContainer.getElementsByClassName("list-group-item-action");
-            }
-
-            if(value == "f" || value == "g" || value == "h" || value == "i" || value == "j"){
-                var btnContainer = document.getElementById("list-tab2");
-                var btns = btnContainer.getElementsByClassName("list-group-item-action");
-            }
-
-            if(value == "k" || value == "l" || value == "m" || value == "n" || value == "o"){
-                var btnContainer = document.getElementById("list-tab3");
-                var btns = btnContainer.getElementsByClassName("list-group-item-action");
-            }
-
-           
-            
-
-        for (var i = 0; i < btns.length; i++) {
-
-            //console.log(i+" "+btns[i].className);
-
-            btns[i].addEventListener('mouseover', function() {
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace('active','').replace('active','');
-            this.className += ' active';
-
-            });
-        }
-        
-    }
-
-    function openProject(value){
-        switch(value){
-            case "a": window.open('https://github.com/gil-son/dsmovie', '_blank');break;
-            case "b": window.open('https://github.com/re-ciclo/re-ciclo', '_blank');break;
-            case "c": window.open('https://github.com/gil-son/spring-ecosystem', '_blank');break;
-            case "d": window.open('https://github.com/gil-son/dscatalog-bootcamp', '_blank');break;
-            case "e": window.open('https://github.com/gil-son/apache-camel-framework-with-spring-boot', '_blank');break;
-            case "f": window.open('https://github.com/gil-son/kafka-versions', '_blank');break;
-            case "g": window.open('https://github.com/gil-son/designer-patterns', '_blank');break;
-            case "h": window.open('https://github.com/gil-son/fullstackeletro-version-react-native', '_blank');break;
-            case "i": window.open('https://github.com/re-ciclo/reciclo-mobile', '_blank');break;
-            case "j": window.open('https://github.com/gil-son/spring-boot-tdd-versions', '_blank');break;
-            case "k": window.open('https://github.com/gil-son/NoSQL-SQL', '_blank');break;
-            case "l": window.open('https://github.com/gil-son/bitcoin-balance', '_blank');break;
-            case "m": window.open('https://github.com/gil-son/fullstackeletro', '_blank');break;
-            case "n": window.open('https://github.com/gil-son/docker', '_blank');break;
-            case "o": window.open('https://github.com/gil-son/agile-modeling', '_blank'); break;
-            default: window.open('https://github.com/gil-son', '_blank');
-        }
-        
-    }
-
     </script>
+    <script src="js/works_and_projects.js"></script>
+    <script src="js/languages.js"></script>
 </body>
 </html>
