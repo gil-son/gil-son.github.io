@@ -10,7 +10,7 @@ function switchLanguage(){
         document.getElementById("sobre").innerText = "Sobre";
         document.getElementById("trabalhos").innerText = "Trabalhos";
         document.getElementById("projetos").innerText = "Projetos";
-        document.getElementById("contatos").innerText = "Contatos";;
+        document.getElementById("contatos").innerText = "Mentoria";
 
         // Home
         
@@ -18,7 +18,7 @@ function switchLanguage(){
         document.getElementById("portfolio").innerHTML = "Neste portfólio, vou compartilhar um pouco sobre minha experiência de trabalho, projetos recentes, redes sociais...";
         document.getElementById("more_info").innerHTML = "Se você quiser mais informações, você pode acessar meu";
         document.getElementById("curriculo").innerHTML = "currículo online";
-        document.getElementById("ou_qualquer").innerHTML = "ou qualquer";
+        document.getElementById("mentoring-link").innerHTML = "<a href='#5'>mentoria</a></em>";
         document.getElementById("bencao").innerHTML = "Que Deus abençoe o seu dia :)";
         document.getElementById("leia_mais_1").innerHTML = "Continuar lendo";
 
@@ -87,6 +87,10 @@ function switchLanguage(){
             document.getElementById("project-15").innerHTML = "Collection and best practices with Diagrams, Models, Systems Use Cases, etc...";
     
     // Contatos
+
+    
+    document.getElementById("mentoring-img").innerHTML = "<img src='https://cdn.pixabay.com/photo/2018/05/17/13/03/business-angel-3408523_960_720.jpg' alt=''>";
+
     document.getElementById("form-submit").innerHTML = "Enviar";
 
     document.getElementsByName('name')[0].placeholder='Seu nome...';
