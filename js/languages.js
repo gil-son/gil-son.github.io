@@ -18,7 +18,7 @@ function switchLanguage(){
         document.getElementById("portfolio").innerHTML = "Neste portfólio, vou compartilhar um pouco sobre minha experiência de trabalho, projetos recentes, redes sociais...";
         document.getElementById("more_info").innerHTML = "Se você quiser mais informações, você pode acessar meu";
         document.getElementById("curriculo").innerHTML = "currículo online";
-        document.getElementById("mentoring-link").innerHTML = "<a href='#5'>mentoria</a></em>";
+        document.getElementById("mentoring-link").innerHTML = "<em> contratar um plano de mentoria ou apenas faça network </em>";
         document.getElementById("bencao").innerHTML = "Que Deus abençoe o seu dia :)";
         document.getElementById("leia_mais_1").innerHTML = "Continuar lendo";
 
