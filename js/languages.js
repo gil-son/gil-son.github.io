@@ -89,7 +89,7 @@ function switchLanguage(){
     // Contatos
 
     
-    document.getElementById("mentoring-img").innerHTML = "<img src='https://cdn.pixabay.com/photo/2018/05/17/13/03/business-angel-3408523_960_720.jpg' alt=''>";
+    document.getElementById("mentoring-img").innerHTML = "<img src='../img/mentoria.png' alt=''>";
 
     document.getElementById("form-submit").innerHTML = "Enviar";
 
