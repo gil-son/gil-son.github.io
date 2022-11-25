@@ -90,6 +90,7 @@ function switchLanguage(){
 
     
     document.getElementById("mentoring-img").innerHTML = "<img src='../img/mentoria.png' alt=''>";
+    document.getElementById("plans-img").innerHTML = "<img src='../img/planos.png' alt=''>";
 
     document.getElementById("form-submit").innerHTML = "Enviar";
 
