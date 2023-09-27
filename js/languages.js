@@ -10,15 +10,15 @@ function switchLanguage(){
         document.getElementById("sobre").innerText = "Sobre";
         document.getElementById("trabalhos").innerText = "Trabalhos";
         document.getElementById("projetos").innerText = "Projetos";
-        document.getElementById("contatos").innerText = "Mentoria";
+        document.getElementById("contatos").innerText = "Network";
 
         // Home
         
-        document.getElementById("bem_vindo").innerHTML = "Bem vindo";
-        document.getElementById("portfolio").innerHTML = "Neste portfólio, vou compartilhar um pouco sobre minha experiência de trabalho, projetos recentes, redes sociais...";
+        document.getElementById("bem_vindo").innerHTML = "Bem vindo(a)!";
+        document.getElementById("portfolio").innerHTML = "Neste portfólio, vou compartilhar um pouco sobre minha experiência de trabalho, projetos recentes, redes sociais e mais...";
         document.getElementById("more_info").innerHTML = "Se você quiser mais informações, você pode acessar o meu";
         document.getElementById("curriculo").innerHTML = "currículo online";
-        document.getElementById("mentoring-link").innerHTML = "<em> contratar um plano de mentoria ou apenas faça network </em>";
+        document.getElementById("mentoring-link").innerHTML = "<em> conhecer meus trabalhos, projetos ou apenas fazer network</em>";
         document.getElementById("bencao").innerHTML = "<em>QUE DEUS ABENÇOE O SEU DIA :)</em>";
         document.getElementById("leia_mais_1").innerHTML = "Continuar lendo";
 
@@ -91,8 +91,8 @@ function switchLanguage(){
     // Contatos
 
     
-    document.getElementById("mentoring-img").innerHTML = "<img src='../img/mentoria.png' alt=''>";
-    document.getElementById("plans-img").innerHTML = "<img src='../img/planos.png' alt=''>";
+    //document.getElementById("mentoring-img").innerHTML = "<img src='../img/mentoria.png' alt=''>";
+    //document.getElementById("plans-img").innerHTML = "<img src='../img/planos.png' alt=''>";
 
     document.getElementById("form-submit").innerHTML = "Enviar";
 
