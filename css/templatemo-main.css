@@ -754,6 +754,25 @@ nav a:hover::before {
 	justify-content: center;
 }
 
+
+.box-work-description-left-ibm{
+	/* background-color: #422b6b; */
+	height: 220px;
+	
+}
+
+.box-work-description-left-pauta{
+	/* background-color: #422b6b; */
+	height: 200px;
+	
+}
+
+.box-work-description-right{
+	/* background-color: #422b6b; */
+	height: 180px;
+	
+}
+
 /* REPONSIVE */
 
 @media (max-width: 991px) {
@@ -883,6 +902,21 @@ nav a:hover::before {
 		font-size: 1.5em;
 		display: flex;
 		justify-content: center;
+	}
+
+	.box-work-description-left-ibm{
+		/* background-color: #422b6b; */
+		height: 345px;
+	}
+
+	.box-work-description-right{
+		/* background-color: #422b6b; */
+		height: 185px;
+	}
+
+	.box-work-description-left-pauta{
+		/* background-color: #422b6b; */
+		height: 210px;
 	}
 
 }

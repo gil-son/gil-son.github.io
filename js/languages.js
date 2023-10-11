@@ -34,15 +34,15 @@ function switchLanguage(){
         // Trabalhos
 
         document.getElementById("desenvolvedor_backend").innerHTML = "Desenvolvedor Backend - Pleno";
-        document.getElementById("selected-ibm").innerHTML = "Aprimorei meu conhecimento de Java através do uso de conceitos do java 8 e mais versões. Usei técnicas de design pattern e código limpo. Isso permitiu uma melhor compreensão e uso do código e paradigma";
+        document.getElementById("selected-ibm").innerHTML = "Tenho aprimorado minhas habilidades de programação explorando conceitos como os princípios SOLID, padrões de design e a prática de manter um código limpo. Também tenho explorado técnicas avançadas, como programação orientada a eventos, gerenciamento de filas e autenticação. Minhas linguagens de programação preferidas são Java e C#, e eu realmente gosto de trabalhar com os frameworks Spring e ASP .NET Core.";
 
             // list - IBM
 
-            document.getElementById("list-a").innerHTML = "Melhoria das habilidade com Java";
-            document.getElementById("list-b").innerHTML = "Web Services com Spring Boot";
-            document.getElementById("list-c").innerHTML = "Habilidades com Apache Camel";
+            document.getElementById("list-a").innerHTML = "Habilidades de Programação";
+            document.getElementById("list-b").innerHTML = "Habilidades de Computação em Nuvem";
+            document.getElementById("list-c").innerHTML = "Habilidades de Arquitetura";
             document.getElementById("list-d").innerHTML = "Trabalho em equipe ou solo";
-            document.getElementById("list-e").innerHTML = "Habilidades de documentação";
+            document.getElementById("list-e").innerHTML = "Habilidades com Metodologias Ágeis e documentações";
 
         
         document.getElementById("analista_dados").innerHTML = "Analista de Dados - Júnior:";
