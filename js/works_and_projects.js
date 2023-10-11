@@ -31,14 +31,14 @@ if(document.getElementById("desenvolvedor_backend").innerHTML == "Desenvolvedor 
         case "e": document.getElementById("selected-ibm").innerHTML = "Atualmente, utilizo metodologias ágeis, como Scrum ou Kanban, para aprimorar minha compreensão do cronograma de entrega. Documento regras de negociação em uma plataforma semelhante ao Jira e forneço detalhes específicos relacionados à tecnologia em plataformas como o Confluence ou o Github. Além disso, crio diagramas para facilitar uma compreensão mais clara.";break;
         case "f": document.getElementById("selected-unicid").innerHTML = "Capacidade de analisar e interpretar dados. Através de ciclos comparativos, previsões, dashboards, históricos de períodos."; break;
         case "g": document.getElementById("selected-unicid").innerHTML = "ETL é um tipo de integração de dados de três etapas (Extrair, Transformar, Carregar) usado para combinar dados de várias fontes.";break;
-        case "h": document.getElementById("selected-unicid").innerHTML = "A pesquisa é uma vasta disciplina que varia de acordo com os conceitos que permanecem comuns: metodologia, tipo de dados (quantitativos ou qualitativos)..";break;
+        case "h": document.getElementById("selected-unicid").innerHTML = "A pesquisa é uma vasta disciplina que varia de acordo com os conceitos que permanecem comuns: metodologia, tipo de dados (quantitativos ou qualitativos).";break;
         case "i": document.getElementById("selected-unicid").innerHTML = "Contribuir com os gestores para uma melhor tomada de decisão. Para isso, é necessário entender a regra de negócio e as variações de contexto.";break;
         case "j": document.getElementById("selected-unicid").innerHTML = "Uso de plataformas de Geoprocessamento e Analytics. Onde foi feito o estudo de regiões em potencial para implementação do negocio.";break;
         case "k": document.getElementById("selected-pautatelecom").innerHTML = "Sites criados em HTML, CSS e JS. Foram otimizados para melhor desempenho e tiveram manutenção e atualizações.";break;
         case "l": document.getElementById("selected-pautatelecom").innerHTML = "Os registros foram feitos em bancos de dados que posteriormente ajudaram a criar um evento e promoções para a empresa.";break;
         case "m": document.getElementById("selected-pautatelecom").innerHTML = "Foram realizadas pesquisas e campanhas nas redes sociais da empresa, para potenciais clientes.";break;
         case "n": document.getElementById("selected-pautatelecom").innerHTML = "Criação de templates, emails, eventos, posts baseados em arte. E roteiros bem elaborados para os clientes.";break;
-        case "o": document.getElementById("selected-pautatelecom").innerHTML = "Manutenção e configuração dos computadores da empresa. Instalação de software e outras melhorias..";break;
+        case "o": document.getElementById("selected-pautatelecom").innerHTML = "Manutenção e configuração dos computadores da empresa. Instalação de software e outras melhorias.";break;
         default: document.getElementById("selecionado").innerHTML = "Nenhum";
 
     }
