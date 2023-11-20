@@ -17,7 +17,9 @@ function switchLanguage(){
         document.getElementById("bem_vindo").innerHTML = "Bem vindo(a)!";
         document.getElementById("portfolio").innerHTML = "Neste portfólio, vou compartilhar um pouco sobre minha experiência de trabalho, projetos recentes, redes sociais e mais...";
         document.getElementById("more_info").innerHTML = "Se você quiser mais informações, você pode acessar o meu";
+        document.getElementById("curriculo").setAttribute("href", "https://www.canva.com/design/DAF0RO5GYDw/IH9DKeoKR1IQiaqUFrWbFQ/view?utm_content=DAF0RO5GYDw&utm_campaign=designshare&utm_medium=link&utm_source=editor");
         document.getElementById("curriculo").innerHTML = "currículo online";
+
         document.getElementById("mentoring-link").innerHTML = "<em> conhecer meus trabalhos, projetos ou apenas fazer network</em>";
         document.getElementById("bencao").innerHTML = "<em>QUE DEUS ABENÇOE O SEU DIA :)</em>";
         document.getElementById("leia_mais_1").innerHTML = "Continuar lendo";
