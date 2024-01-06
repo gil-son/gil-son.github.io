@@ -36,7 +36,7 @@ function switchLanguage(){
         // Trabalhos
 
         document.getElementById("desenvolvedor_backend").innerHTML = "Desenvolvedor Backend - Pleno";
-        document.getElementById("selected-ibm").innerHTML = "Tenho aprimorado minhas habilidades de programação explorando conceitos como os princípios SOLID, padrões de design e a prática de manter um código limpo. Também tenho explorado técnicas avançadas, como programação orientada a eventos, gerenciamento de filas e autenticação. Minhas linguagens de programação preferidas são Java e C#, e eu realmente gosto de trabalhar com os frameworks Spring e ASP .NET Core.";
+        document.getElementById("selected-ibm").innerHTML = "Tenho aprimorado minhas habilidades de programação explorando conceitos como os princípios SOLID, padrões de design e a prática de manter um código limpo. Também tenho explorado técnicas avançadas, como programação orientada a eventos, gerenciamento de filas e autenticação. Gosto de trabalhar com os frameworks Spring e ASP .NET Core.";
 
             // list - IBM
 
