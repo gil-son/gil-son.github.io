@@ -73,6 +73,9 @@ function switchLanguage(){
     // Projetos
             document.getElementById("project-a1").innerHTML = "Compilação de projetos Terraform para criação de recursos na AWS";
             document.getElementById("project-a2").innerHTML = "Compilação sobre o conhecimento da AWS";
+            document.getElementById("project-aa").innerHTML = "Um desafio de aplicação de marketplace do iFood com Spring e muitos recursos na AWS";
+            document.getElementById("project-bb").innerHTML = "API com RabbitMQ para organizar a entrega de email.";
+            document.getElementById("project-cc").innerHTML = "Compilação sobre Redes Neurais";
             document.getElementById("project-a3").innerHTML = "Compilação sobre APIs em .NET";
             document.getElementById("project-1").innerHTML = "Um catálogo de filmes, com avaliação e inscrição. Tem 4 idiomas";
             document.getElementById("project-2").innerHTML = "O Re-ciclo é um projeto e desenvolvimento sustentável idealizado pela instituição Recode Pro através do Esquadrão 07";

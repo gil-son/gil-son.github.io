@@ -80,6 +80,9 @@ function openProject(value){
     switch(value){
         case "a1": window.open('https://github.com/gil-son/terraform-with-aws', '_blank');break;
         case "a2": window.open('https://github.com/gil-son/aws', '_blank');break;
+        case "aa": window.open('https://github.com/gil-son/challenge-ifood-anota-ai?tab=readme-ov-file', '_blank');break;
+        case "bb": window.open('https://github.com/gil-son/microservices-emails-rabbitmq', '_blank');break;
+        case "cc": window.open('https://github.com/gil-son/deep-learning', '_blank');break;
         case "a3": window.open('https://github.com/gil-son/dotnet-apis', '_blank');break;
         case "a": window.open('https://github.com/gil-son/dsmovie', '_blank');break;
         case "b": window.open('https://github.com/re-ciclo/re-ciclo', '_blank');break;
