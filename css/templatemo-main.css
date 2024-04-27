@@ -775,6 +775,14 @@ nav a:hover::before {
 
 /* REPONSIVE */
 
+@media (max-width: 1920px) {
+
+	nav ul li{
+		margin: 0px 0px 0px 0px;
+	}
+
+}
+
 @media (max-width: 991px) {
 
 
