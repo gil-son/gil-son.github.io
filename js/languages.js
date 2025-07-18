@@ -35,40 +35,27 @@ function switchLanguage(){
 
         // Trabalhos
 
-        document.getElementById("desenvolvedor_backend").innerHTML = "Desenvolvedor Backend - Pleno";
-        document.getElementById("selected-ibm").innerHTML = "Tenho aprimorado minhas habilidades de programação explorando conceitos como os princípios SOLID, padrões de design e a prática de manter um código limpo. Também tenho explorado técnicas avançadas, como programação orientada a eventos, gerenciamento de filas e autenticação. Gosto de trabalhar com os frameworks Spring e ASP .NET Core.";
+            // IBM
+                // role
+                document.getElementById("role-ibm-junior").innerHTML = "Engenheiro de ML/IA (Abr de 2025 – presente)";
+                document.getElementById("role-ibm-pleno").innerHTML = "Desenvolvedor Backend – Pleno (ago de 2022 – abr de 2025)";
+                document.getElementById("role-ibm-ml").innerHTML = "Desenvolvedor Backend – Júnior (jun de 2021 – ago de 2022)";
 
-            // list - IBM
-
-            document.getElementById("list-a").innerHTML = "Habilidades de Programação";
-            document.getElementById("list-b").innerHTML = "Habilidades de Computação em Nuvem";
-            document.getElementById("list-c").innerHTML = "Habilidades de Arquitetura";
-            document.getElementById("list-d").innerHTML = "Trabalho em equipe ou solo";
-            document.getElementById("list-e").innerHTML = "Habilidades com Metodologias Ágeis e documentações";
-
+                // description
+                document.getElementById("description-ibm-junior").innerHTML = "Desenvolvedor júnior com experiência prática na criação de microsserviços e APIs utilizando Spring Boot e Apache Camel. Habilidade em testes unitários e em garantir a segurança das aplicações por meio de criptografia, validação, autenticação e autorização.";
+                document.getElementById("description-ibm-pleno").innerHTML = "Experiência em desenvolvimento backend com Spring Boot, Spring Batch, Apache Camel e Kafka, criando microsserviços e APIs com autenticação segura via OAuth2 e Keycloak. Habilidade em infraestrutura como código com Terraform, integração de bancos de dados (MongoDB, PostgreSQL), CI/CD automatizado com GitHub Actions e testes unitários.";
+                document.getElementById("description-ibm-ml").innerHTML = "Experiência na construção de sistemas completos de IA/ML com foco em MLOps, FMOps e infraestrutura escalável. Entrega de soluções em produção utilizando MLflow, AWS, Terraform e práticas de CI/CD. Especializado em integração com LLMs e sistemas agentic com LangChain e bancos vetoriais, impulsionando aplicações de IA corporativas no setor financeiro.";
         
         document.getElementById("analista_dados").innerHTML = "Analista de Dados - Júnior:";
         document.getElementById("selected-unicid").innerHTML = "Capacidade de analisar e interpretar dados. Através de ciclos comparativos, previsões, painéis, históricos de períodos";
 
-            // list - UNICID
+            // UNICID
 
-            document.getElementById("list-f").innerHTML = "Habilidades de análise";
-            document.getElementById("list-g").innerHTML = "ETL";
-            document.getElementById("list-h").innerHTML = "Pesquisa de mercado relacionada a termos-chave";
-            document.getElementById("list-i").innerHTML = "Contribuir com decisões";
-            document.getElementById("list-j").innerHTML = "Geoprocessamento e Análises";
-
-        
+            
         document.getElementById("programador_web").innerHTML = "Porgramador Web - Estágio:";
         document.getElementById("selected-pautatelecom").innerHTML = "Sites criados em HTML, CSS e JS. Eles foram otimizados para melhor desempenho e tiveram manutenção e atualizações.";
 
-            // list - PAUTA TELECOM
-
-            document.getElementById("list-k").innerHTML = "Otimização, manutenção e criação de sites";
-            document.getElementById("list-l").innerHTML = "Atualização e Marketing com base na história";
-            document.getElementById("list-m").innerHTML = "Clientes em potencial";
-            document.getElementById("list-n").innerHTML = "Criação de arte";
-            document.getElementById("list-o").innerHTML = "Manutenção de computadores";
+            // PAUTA TELECOM
 
     // Projetos
             document.getElementById("project-a1").innerHTML = "Compilação de projetos Terraform para criação de recursos na AWS";
