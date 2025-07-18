@@ -35,16 +35,16 @@ function switchLanguage(){
 
         // Trabalhos
 
-            // IBM
-                // role
-                document.getElementById("role-ibm-junior").innerHTML = "Engenheiro de ML/IA (Abr de 2025 – presente)";
-                document.getElementById("role-ibm-pleno").innerHTML = "Desenvolvedor Backend – Pleno (ago de 2022 – abr de 2025)";
-                document.getElementById("role-ibm-ml").innerHTML = "Desenvolvedor Backend – Júnior (jun de 2021 – ago de 2022)";
+        // IBM
+        // role
+        document.getElementById("role-ibm-junior").innerHTML = "Desenvolvedor Backend – Júnior (jun de 2021 – ago de 2022)";
+        document.getElementById("role-ibm-pleno").innerHTML = "Desenvolvedor Backend – Pleno (ago de 2022 – abr de 2025)";
+        document.getElementById("role-ibm-ml").innerHTML = "Engenheiro de ML/IA (Abr de 2025 – presente)";
 
-                // description
-                document.getElementById("description-ibm-junior").innerHTML = "Desenvolvedor júnior com experiência prática na criação de microsserviços e APIs utilizando Spring Boot e Apache Camel. Habilidade em testes unitários e em garantir a segurança das aplicações por meio de criptografia, validação, autenticação e autorização.";
-                document.getElementById("description-ibm-pleno").innerHTML = "Experiência em desenvolvimento backend com Spring Boot, Spring Batch, Apache Camel e Kafka, criando microsserviços e APIs com autenticação segura via OAuth2 e Keycloak. Habilidade em infraestrutura como código com Terraform, integração de bancos de dados (MongoDB, PostgreSQL), CI/CD automatizado com GitHub Actions e testes unitários.";
-                document.getElementById("description-ibm-ml").innerHTML = "Experiência na construção de sistemas completos de IA/ML com foco em MLOps, FMOps e infraestrutura escalável. Entrega de soluções em produção utilizando MLflow, AWS, Terraform e práticas de CI/CD. Especializado em integração com LLMs e sistemas agentic com LangChain e bancos vetoriais, impulsionando aplicações de IA corporativas no setor financeiro.";
+        // description
+        document.getElementById("description-ibm-junior").innerHTML = "Desenvolvedor júnior com experiência prática na criação de microsserviços e APIs utilizando Spring Boot e Apache Camel. Habilidade em testes unitários e em garantir a segurança das aplicações por meio de criptografia, validação, autenticação e autorização.";
+        document.getElementById("description-ibm-pleno").innerHTML = "Experiência em desenvolvimento backend com Spring Boot, Spring Batch, Apache Camel e Kafka, criando microsserviços e APIs com autenticação segura via OAuth2 e Keycloak. Habilidade em infraestrutura como código com Terraform, integração de bancos de dados (MongoDB, PostgreSQL), CI/CD automatizado com GitHub Actions e testes unitários.";
+        document.getElementById("description-ibm-ml").innerHTML = "Experiência na construção de sistemas completos de IA/ML com foco em MLOps, FMOps e infraestrutura escalável. Entrega de soluções em produção utilizando MLflow, AWS, Terraform e práticas de CI/CD. Especializado em integração com LLMs e sistemas agentic com LangChain e bancos vetoriais, impulsionando aplicações de IA corporativas no setor financeiro.";
         
         document.getElementById("analista_dados").innerHTML = "Analista de Dados - Júnior:";
         document.getElementById("selected-unicid").innerHTML = "Capacidade de analisar e interpretar dados. Através de ciclos comparativos, previsões, painéis, históricos de períodos";
