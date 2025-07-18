@@ -100,29 +100,45 @@
                             <div class="first-section">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        
+                                    
                                         <div class="col-md-6">
                                             <div class="row">
-                                            <div class="left-content box-work-description-left-ibm">
-                                                <h2>IBM - BRAZIL</h2>
-                                                <p id="desenvolvedor_backend">Backend developer - Pleno</p>
-                                                <p id="selected-ibm">I have been enhancing my programming skills by delving into concepts such as SOLID principles, design patterns, and maintaining clean code practices. I've also been exploring advanced techniques like event-driven programming, queue management, and authentication. I particularly enjoy working with Spring and ASP .NET Core frameworks.                                  
-                                                
-                                                <!-- <div class="main-btn"><a href="#4">Continue Reading</a></div> -->
+                                                <div class="left-content box-work-description-left-ibm">
+                                                    <h2>IBM - BRAZIL</h2>
+
+                                                    <ul class="nav nav-tabs" id="roleTab" role="tablist">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link active" id="ml-tab" data-toggle="tab" href="#machine-learning" role="tab" aria-controls="machine-learning" aria-selected="true" aria-expanded="true">ML/AI Engineer</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="pleno-tab" data-toggle="tab" href="#pleno" role="tab" aria-controls="pleno" aria-selected="false" onclick="removeMachineLearnStyleEffect()">Pleno Developer</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="junior-tab" data-toggle="tab" href="#junior" role="tab" aria-controls="junior" aria-selected="false" onclick="removeMachineLearnStyleEffect()">Junior Developer</a>
+                                                        </li>
+                                                    </ul>
+
+                                                    <div class="tab-content" id="roleTabContent">
+                                                        <div class="tab-pane fade" id="junior" role="tabpanel" aria-labelledby="junior-tab">
+                                                            <p id="role-ibm-junior">Backend developer - Junior (Jun 2021 - Aug 2022)</p>
+                                                            <p id="description-ibm-junior">Junior developer with hands-on experience in building microservices and APIs using Spring Boot and Apache Camel. Skilled in implementing unit tests and ensuring application security through encryption, validation, authentication, and authorization.</p>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="pleno" role="tabpanel" aria-labelledby="pleno-tab" >
+                                                            <p id="role-ibm-pleno">Backend developer - Pleno (Aug 2022 - Apr 2025)</p>
+                                                            <p id="description-ibm-pleno">Experienced in backend development with Spring Boot, Spring Batch, Apache Camel, and Kafka, building microservices and APIs with secure authentication via OAuth2 and Keycloak. Skilled in infrastructure as code with Terraform, database integration (MongoDB, PostgreSQL), automated CI/CD using GitHub Actions, and unit testing.</p>
+                                                        </div>
+                                                        <div class="tab-pane active" id="machine-learning" role="tabpanel" aria-labelledby="ml-tab">
+                                                            <p id="role-ibm-ml">ML/AI Engineer (Apr 2025 - Present)</p>
+                                                            <p id="description-ibm-ml">Experienced in building end-to-end AI/ML systems with a focus on MLOps, FMOps, and scalable infrastructure. Delivered production solutions using MLflow, AWS, Terraform, and CI/CD. Specialized in LLM integration and agentic systems with LangChain and vector databases, powering enterprise AI applications in the financial sector.</p>
+                                                        </div>
+                                                        
+                                                      
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                            <div class="row">
-                                                <div class="col-md-11">
-                                                  <div class="list-group" id="list-tab1" role="tablist">
-                                                    <a class="list-group-item list-group-item-action active" id="list-a" data-toggle="list" onmousemove="selection('a')" role="tab" aria-controls="settings">Programming skills</a>
-                                                    <a class="list-group-item list-group-item-action" id="list-b" data-toggle="list" onmousemove="selection('b')" role="tab" aria-controls="home">Cloud computing skills</a>
-                                                    <a class="list-group-item list-group-item-action" id="list-c" data-toggle="list" onmousemove="selection('c')" role="tab" aria-controls="profile">Archichecture skills</a>
-                                                    <a class="list-group-item list-group-item-action" id="list-d" data-toggle="list" onmousemove="selection('d')" role="tab" aria-controls="messages">Individual or team work</a>
-                                                    <a class="list-group-item list-group-item-action" id="list-e" data-toggle="list" onmousemove="selection('e')" role="tab" aria-controls="settings">Agile Methodologies and Documentations skills</a>
-                                                  </div>
-                                                </div>
-                                              </div>  
-                                        </div>
+
                                         <div class="col-md-6">
                                             <div class="right-image">
                                                 <img src="img/first_service.jpg" alt="IBM">
@@ -152,13 +168,7 @@
                                             </div>
                                                 <div class="row">
                                                     <div class="col-md-11">
-                                                        <div class="list-group" id="list-tab2" role="tablist">
-                                                          <a class="list-group-item list-group-item-action active" id="list-f" data-toggle="list" onmousemove="selection('f')" role="tab" aria-controls="settings">Analisys skills</a>
-                                                          <a class="list-group-item list-group-item-action" id="list-g" data-toggle="list" onmousemove="selection('g')" role="tab" aria-controls="home">ETL</a>
-                                                          <a class="list-group-item list-group-item-action" id="list-h" data-toggle="list" onmousemove="selection('h')" role="tab" aria-controls="profile">Market research relating to key terms</a>
-                                                          <a class="list-group-item list-group-item-action" id="list-i" data-toggle="list" onmousemove="selection('i')" role="tab" aria-controls="messages">Contribute with decisions</a>
-                                                          <a class="list-group-item list-group-item-action" id="list-j" data-toggle="list" onmousemove="selection('j')" role="tab" aria-controls="settings">Geoprocessing and Analytics</a>
-                                                        </div>
+                                                        
                                                   </div>
                                             </div>
                                         </div>
@@ -181,15 +191,7 @@
                                             </div>
                                         </div>
                                             <div class="row">
-                                                <div class="col-md-11">
-                                                  <div class="list-group" id="list-tab3" role="tablist">
-                                                    <a class="list-group-item list-group-item-action active" id="list-k" data-toggle="list" onmousemove="selection('k')" role="tab" aria-controls="settings">Optimization, maintenance and creation of websites</a>
-                                                    <a class="list-group-item list-group-item-action" id="list-l" data-toggle="list" onmousemove="selection('l')" role="tab" aria-controls="home">Updating and Marketing based on history</a>
-                                                    <a class="list-group-item list-group-item-action" id="list-m" data-toggle="list" onmousemove="selection('m')" role="tab" aria-controls="profile">Potential customers</a>
-                                                    <a class="list-group-item list-group-item-action" id="list-n" data-toggle="list" onmousemove="selection('n')" role="tab" aria-controls="messages">Art creation</a>
-                                                    <a class="list-group-item list-group-item-action" id="list-o" data-toggle="list" onmousemove="selection('o')" role="tab" aria-controls="settings">Computer maintenance</a>
-                                                  </div>
-                                                </div>
+                                                
                                               </div>  
                                         </div>
                                         <div class="col-md-6">
@@ -701,22 +703,37 @@
               <!-- <p>Copyright &copy; 2022 Gilson Vieira de Souza</p> -->
           </div>
         </div>
-    <!--
-        <script>
-            const phoneInput = document.getElementById('phone');
-          
-            phoneInput.addEventListener('input', (event) => {
-              const phone = event.target.value.replace(/\D/g, '');
-          
-              if (phone.length > 2 && phone.length <= 6) {
-                event.target.value = `(${phone.slice(0, 2)}) ${phone.slice(2)}`;
-              } else if (phone.length > 6) {
-                event.target.value = `(${phone.slice(0, 2)}) ${phone.slice(2, 7)}-${phone.slice(7)}`;
-              }
-            });
-          </script>
-    -->  
 
+    <script>
+        window.onload = function() {
+        // Code to be executed after the entire page is loaded
+        console.log("Page and all resources loaded!");
+        var mlTab = document.getElementById("ml-tab");
+        console.log(mlTab);
+        mlTab.style.color="#555";
+        mlTab.style.cursor = "default";
+        mlTab.style.backgroundColor = "#fff";
+        mlTab.style.border = "1px solid #ddd";
+        mlTab.style.borderBottomColor = "transparent";
+    };
+
+    </script>
+    <script>
+    function removeMachineLearnStyleEffect(){
+        console.log("removing");
+        var mlTab = document.getElementById("ml-tab");
+        console.log(mlTab);
+ 
+        mlTab.style.color = "";
+        mlTab.style.cursor = "";
+        mlTab.style.backgroundColor = "";
+        mlTab.style.marginRight = "";
+        mlTab.style.lineHeight = "";
+        mlTab.style.border = ""; // Reset entire border
+        mlTab.style.borderRadius = ""; // Reset border-radius
+    }
+
+    </script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
