@@ -475,7 +475,7 @@ nav a:hover::before {
 
 .third-content {
 	text-align: left;
-	padding: 30px;
+	padding: 20px;
 }
 
 .third-content .container-fluid {
@@ -484,7 +484,7 @@ nav a:hover::before {
 }
 
 .third-content .first-section .left-content {
-	margin-right: 15px;
+	margin-left: 15px;
 	margin-top: 12px;
 }
 
@@ -818,7 +818,7 @@ nav a:hover::before {
 	}
 
 	.third-content .first-section .left-content {
-		margin-right: 0px;
+		margin-left: 10px;
 		margin-bottom: 30px;
 	}
 
@@ -843,7 +843,6 @@ nav a:hover::before {
 	.fifth-content #contact {
 		padding: 30px 30px 30px 30px;
 	}
-
 }
 
 @media (max-width: 749px) {
@@ -927,6 +926,24 @@ nav a:hover::before {
 		height: 210px;
 	}
 
+	.third-content .second-section .right-content {
+		margin-left: 15px;
+		margin-top: 12px;
+		margin-bottom: 120px;
+	}
+
+	.left-content.box-work-description-left-pauta {
+		margin: 12px 0px 120px 12px;
+	}
+
+	.third-content p {
+		font-size: 13px;
+		color: #fff;
+		letter-spacing: 0.5px;
+		font-weight: 300;
+		margin-bottom: 20px;
+		margin-left: 7px;
+	}
 }
 
 
@@ -958,7 +975,4 @@ nav a:hover::before {
 		color: rgb(179, 183, 198);
 		margin-bottom: 15px;
 	}	
-
-	
-
 }
