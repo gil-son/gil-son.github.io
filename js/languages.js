@@ -43,21 +43,24 @@ function switchLanguage(){
 
         // description
         document.getElementById("description-ibm-junior").innerHTML = "Desenvolvedor júnior com experiência prática na criação de microsserviços e APIs utilizando Spring Boot e Apache Camel. Habilidade em testes unitários e em garantir a segurança das aplicações por meio de criptografia, validação, autenticação e autorização.";
-        document.getElementById("description-ibm-pleno").innerHTML = "Experiência em desenvolvimento backend com Spring Boot, Spring Batch, Apache Camel e Kafka, criando microsserviços e APIs com autenticação segura via OAuth2 e Keycloak. Habilidade em infraestrutura como código com Terraform, integração de bancos de dados (MongoDB, PostgreSQL), CI/CD automatizado com GitHub Actions e testes unitários.";
+        document.getElementById("description-ibm-pleno").innerHTML = "Experiência em desenvolvimento backend com Spring Boot, Spring Batch, Apache Camel e Kafka, criando microsserviços e APIs com autenticação segura via OAuth2 e Keycloak. Habilidade em infraestrutura como código com Terraform, integração de bancos de dados, CI/CD automatizado com GitHub Actions e testes unitários.";
         document.getElementById("description-ibm-ml").innerHTML = "Experiência na construção de sistemas completos de IA/ML com foco em MLOps, FMOps e infraestrutura escalável. Entrega de soluções em produção utilizando MLflow, AWS, Terraform e práticas de CI/CD. Especializado em integração com LLMs e sistemas agentic com LangChain e bancos vetoriais, impulsionando aplicações de IA corporativas no setor financeiro.";
         
-        document.getElementById("analista_dados").innerHTML = "Analista de Dados - Júnior:";
-        document.getElementById("selected-unicid").innerHTML = "Capacidade de analisar e interpretar dados. Através de ciclos comparativos, previsões, painéis, históricos de períodos";
+        document.getElementById("analista_dados").innerHTML = "Analista de Dados - Júnior (2018-2019)";
+        document.getElementById("selected-unicid").innerHTML = "Habilidade em analisar dados qualitativos e quantitativos, realizar pesquisas de mercado e comparar ciclos de negócios. Experiência em trabalho colaborativo com equipes internas e externas, utilizando plataformas de geoprocessamento e analytics, além de apoiar gestores com insights estratégicos para uma melhor tomada de decisão.";
 
             // UNICID
 
             
-        document.getElementById("programador_web").innerHTML = "Porgramador Web - Estágio:";
-        document.getElementById("selected-pautatelecom").innerHTML = "Sites criados em HTML, CSS e JS. Eles foram otimizados para melhor desempenho e tiveram manutenção e atualizações.";
+        document.getElementById("programador_web").innerHTML = "Porgramador Web - Estágio (2017-2018)";
+        document.getElementById("selected-pautatelecom").innerHTML = "Responsável pela otimização, manutenção e criação de sites, atualização de conteúdo e estratégias de marketing com base no comportamento dos usuários, além de apoiar a pesquisa e organização de eventos para atrair potenciais clientes.";
 
             // PAUTA TELECOM
 
     // Projetos
+            document.getElementById("project-a01").innerHTML = "Guia completo de ML: teoria, algoritmos e exemplos práticos.";
+            document.getElementById("project-a02").innerHTML = "Teoria e projetos práticos para explorar o desenvolvimento de LLM e mais.";
+            document.getElementById("project-a03").innerHTML = "Um aplicativo web com IA que prevê sua provável nota no exame.";
             document.getElementById("project-a1").innerHTML = "Compilação de projetos Terraform para criação de recursos na AWS";
             document.getElementById("project-a2").innerHTML = "Compilação sobre o conhecimento da AWS";
             document.getElementById("project-aa").innerHTML = "Um desafio de aplicação de marketplace do iFood com Spring e muitos recursos na AWS";

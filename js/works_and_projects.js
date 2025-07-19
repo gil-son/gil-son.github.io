@@ -78,6 +78,9 @@ if(document.getElementById("desenvolvedor_backend").innerHTML == "Desenvolvedor 
 
 function openProject(value){
     switch(value){
+        case "a01": window.open('https://github.com/gil-son/machine-learning', '_blank');break;
+        case "a02": window.open('https://github.com/gil-son/llm-engineering-lab', '_blank');break;
+        case "a03": window.open('https://github.com/gil-son/exam-performance-predictor-linear-regression', '_blank');break;
         case "a1": window.open('https://github.com/gil-son/terraform-with-aws', '_blank');break;
         case "a2": window.open('https://github.com/gil-son/aws', '_blank');break;
         case "aa": window.open('https://github.com/gil-son/challenge-ifood-anota-ai?tab=readme-ov-file', '_blank');break;
