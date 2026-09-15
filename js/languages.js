@@ -17,7 +17,7 @@ function switchLanguage(){
         document.getElementById("bem_vindo").innerHTML = "Bem vindo(a)!";
         document.getElementById("portfolio").innerHTML = "Neste portfólio, vou compartilhar um pouco sobre minha experiência de trabalho, projetos recentes, redes sociais e mais...";
         document.getElementById("more_info").innerHTML = "Se você quiser mais informações, você pode acessar o meu";
-        document.getElementById("curriculo").setAttribute("href", "https://docs.google.com/document/d/1slzEFVtWuM3e60-VtUlsdiTEM6qJU8Tr5RmEldqyXrY/edit?usp=sharing");
+        document.getElementById("curriculo").setAttribute("href", "https://docs.google.com/document/d/1Ky2eIi2wJ4HaBb3JXH35EHS5p-BIJJ_c/edit?usp=sharing&ouid=117834716618908744232&rtpof=true&sd=true");
         document.getElementById("curriculo").innerHTML = "currículo online";
 
         document.getElementById("mentoring-link").innerHTML = "<em> conhecer meus trabalhos, projetos ou apenas fazer network</em>";
