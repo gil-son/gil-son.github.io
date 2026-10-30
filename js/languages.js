@@ -10,6 +10,7 @@ function switchLanguage(){
         document.getElementById("sobre").innerText = "Sobre";
         document.getElementById("trabalhos").innerText = "Trabalhos";
         document.getElementById("projetos").innerText = "Projetos";
+        document.getElementById("artigos").innerText = "Artigos";
         document.getElementById("contatos").innerText = "Network";
 
         // Home
@@ -83,6 +84,18 @@ function switchLanguage(){
             document.getElementById("project-14").innerHTML = "O Docker permite que você separe os aplicativos de sua infraestrutura para que você possa entregar software com segurança";
             document.getElementById("project-15").innerHTML = "Collection and best practices with Diagrams, Models, Systems Use Cases, etc...";
     
+    // Artigos
+
+    document.getElementById("artigos-titulo").innerHTML = "Artigos";
+    document.getElementById("article-1-title").innerHTML = "A árvore genealógica da IA";
+    document.getElementById("article-1-desc").innerHTML = "Como IA, aprendizado de máquina, redes neurais, aprendizado profundo e IA generativa se encaixam";
+    document.getElementById("article-1-date").innerHTML = "2026-09-24";
+    document.getElementById("article-1-link").innerHTML = '<i class="fa fa-medium"></i> Ler no Medium';
+    document.getElementById("article-2-title").innerHTML = "Em Breve";
+    document.getElementById("article-2-desc").innerHTML = "Em Breve";
+    document.getElementById("article-2-date").innerHTML = "Em Breve";
+    document.getElementById("article-2-link").innerHTML = '<i class="fa fa-medium"></i> Ler no Medium';
+
     // Contatos
 
     
