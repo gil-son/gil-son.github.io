@@ -901,7 +901,7 @@ nav a:hover::before {
 
 .box-work-description-left-actdigital{
 	/* background-color: #422b6b; */
-	height: 200px;
+	height: 240px;
 
 }
 
@@ -939,9 +939,31 @@ nav a:hover::before {
 	.third-content .first-section .right-image {
 		margin: 0px 0px 0px 15px;
 	}
-	
+
 	.third-content .second-section .left-image {
 		margin: 0px 15px 0px 0px;
+	}
+
+	.third-content .actdigital-section .left-image {
+		margin: 0px 15px 0px 0px;
+	}
+
+	.third-content .actdigital-section {
+		border-bottom: 1px solid rgba(250,250,250,0.3);
+		padding-bottom: 45px;
+		margin-bottom: 45px;
+	}
+
+	.third-content .actdigital-section .right-content {
+		margin-left: 10px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	/* Let the box grow with its content once columns stack, so the
+	   description no longer overlaps the section below on smaller screens */
+	.box-work-description-left-actdigital {
+		height: auto;
 	}
 
 
