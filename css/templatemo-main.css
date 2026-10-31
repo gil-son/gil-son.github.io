@@ -486,6 +486,19 @@ nav a:hover::before {
 	padding-left: 7.5px;
 }
 
+.third-content .actdigital-section .right-content {
+	margin-left: 15px;
+	margin-top: 12px;
+}
+
+.third-content .actdigital-section .left-image {
+	margin: 0px 15px 0px 0px !important;
+}
+
+.third-content .first-section {
+	margin-top: 30px;
+}
+
 .third-content .first-section .left-content {
 	margin-left: 15px;
 	margin-top: 12px;
@@ -886,10 +899,16 @@ nav a:hover::before {
 }
 
 
+.box-work-description-left-actdigital{
+	/* background-color: #422b6b; */
+	height: 200px;
+
+}
+
 .box-work-description-left-ibm{
 	/* background-color: #422b6b; */
 	height: 260px;
-	
+
 }
 
 .box-work-description-left-pauta{

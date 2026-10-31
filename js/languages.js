@@ -36,11 +36,15 @@ function switchLanguage(){
 
         // Trabalhos
 
+        // ACT DIGITAL
+        document.getElementById("role-actdigital-ml").innerHTML = "Engenheiro de Machine Learning Sênior (Out de 2026 – presente)";
+        document.getElementById("description-actdigital-ml").innerHTML = "Refatoração da esteira de CI/CD no Azure DevOps (MLOps) para automatizar a migração e o deploy de modelos via Databricks, construindo fluxos automatizados e confiáveis para o gerenciamento do ciclo de vida de modelos entre ambientes. Também responsável pela análise e criação do System Design de soluções de IA para apoiar e orientar as decisões técnicas do time.";
+
         // IBM
         // role
         document.getElementById("role-ibm-junior").innerHTML = "Desenvolvedor Backend – Júnior (jun de 2021 – ago de 2022)";
         document.getElementById("role-ibm-pleno").innerHTML = "Desenvolvedor Backend – Pleno (ago de 2022 – abr de 2025)";
-        document.getElementById("role-ibm-ml").innerHTML = "Engenheiro de ML/IA (Abr de 2025 – presente)";
+        document.getElementById("role-ibm-ml").innerHTML = "Engenheiro de ML/IA (Abr de 2025 – Out 2026)";
 
         // description
         document.getElementById("description-ibm-junior").innerHTML = "Desenvolvedor júnior com experiência prática na criação de microsserviços e APIs utilizando Spring Boot e Apache Camel. Habilidade em testes unitários e em garantir a segurança das aplicações por meio de criptografia, validação, autenticação e autorização.";
